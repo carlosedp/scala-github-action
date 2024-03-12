@@ -21,9 +21,10 @@ bin/
 # NetBeans
 nb-configuration.xml
 
-# Visual Studio Code
-.vscode
+# Visual Studio Code / Scala
 .factorypath
+.metals
+.bloop
 
 # OSX
 .DS_Store
