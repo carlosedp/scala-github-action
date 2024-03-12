@@ -1,0 +1,9 @@
+name: 'Scala 3 Action'
+description: 'Sample Scala 3 GitHub Action with Quarkus'
+inputs:
+  github-token:
+    description: 'GitHub token'
+    required: false
+runs:
+  using: 'docker'
+  image: 'docker://ghcr.io/carlosedp/scala-quarkus-ghaction:main'
