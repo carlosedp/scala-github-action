@@ -30,3 +30,8 @@ jobs:
 
       - name: Build
         run: ./mvnw -B clean verify -Dquarkus.package.type=uber-jar -Dquarkus.package.add-runner-suffix=false
+      
+      - name: Run Sample Scala 3 Quarkus Action (as demo)
+        uses: carlosedp/scala-github-action@main
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
