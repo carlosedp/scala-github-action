@@ -19,7 +19,7 @@
     <scala-maven-plugin.version>4.9.5</scala-maven-plugin.version>
     <scala.version>3.7.0</scala.version>
     <skipITs>true</skipITs>
-    <surefire-plugin.version>3.5.2</surefire-plugin.version>
+    <surefire-plugin.version>3.5.3</surefire-plugin.version>
   </properties>
   <dependencyManagement>
     <dependencies>
